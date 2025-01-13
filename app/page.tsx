@@ -1,3 +1,11 @@
+// Dit is de hoofdpagina van mijn OpTijd app.
+// Hier beheer ik de takenlijst en de gebruikersinterface voor het toevoegen, bewerken, en verwijderen van taken.
+// Ik gebruik React hooks om de staat van de taken en de gebruikersinterface te beheren.
+// De taken worden opgeslagen in de lokale opslag van de browser, zodat ze bewaard blijven tussen sessies.
+// Er zijn filters om taken te sorteren op 'alle', 'actief', en 'voltooid'.
+// De gebruiker kan ook zoeken naar specifieke taken met een zoekbalk.
+// Toastmeldingen worden gebruikt om de gebruiker op de hoogte te stellen van acties zoals het toevoegen of verwijderen van taken.
+
 'use client';
 
 import { useState, useEffect } from 'react';

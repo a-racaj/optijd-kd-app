@@ -1,3 +1,3 @@
-# optijd-kd-app
+# OpTijd - Productiviteitsapp
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/a-racaj/optijd-kd-app)
+## OpTijd is een eenvoudige en intuïtieve taakbeheer web-app waarmee je je taken effectief kunt organiseren. Met functies zoals prioriteiten instellen, tagging, en Dark Mode, helpt OpTijd je om gefocust en productief te blijven.

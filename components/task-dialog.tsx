@@ -1,3 +1,9 @@
+// Dit bestand bevat de TaskDialog component voor mijn OpTijd app.
+// Het biedt een dialoogvenster waarmee gebruikers taken kunnen toevoegen of bewerken.
+// Gebruikers kunnen een titel, prioriteit, deadline en tags voor een taak instellen.
+// De component maakt gebruik van verschillende UI-elementen zoals knoppen, invoervelden en een kalender.
+// Het zorgt ervoor dat de ingevoerde gegevens worden verwerkt en opgeslagen wanneer de gebruiker op 'Toevoegen' of 'Opslaan' klikt.
+
 'use client';
 
 import { useState, useEffect } from 'react';
