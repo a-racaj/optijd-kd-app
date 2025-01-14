@@ -1,6 +1,12 @@
+// Dit bestand bevat de useToast hook voor mijn OpTijd app.
+// Het biedt een manier om toastmeldingen te beheren en weer te geven.
+// Toasts kunnen worden toegevoegd, bijgewerkt, en verwijderd.
+// Er is een limiet aan het aantal toasts dat tegelijk kan worden weergegeven.
+// Toasts worden automatisch verwijderd na een bepaalde tijd.
+
 'use client';
 
-// Inspired by react-hot-toast library
+// Geïnspireerd door de react-hot-toast bibliotheek
 import * as React from 'react';
 
 import type { ToastActionElement, ToastProps } from '@/components/ui/toast';
@@ -90,8 +96,6 @@ export const reducer = (state: State, action: Action): State => {
     case 'DISMISS_TOAST': {
       const { toastId } = action;
 
-      // ! Side effects ! - This could be extracted into a dismissToast() action,
-      // but I'll keep it here for simplicity
       if (toastId) {
         addToRemoveQueue(toastId);
       } else {

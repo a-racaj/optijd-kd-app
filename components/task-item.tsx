@@ -1,3 +1,10 @@
+// Dit bestand bevat de TaskItem component voor mijn OpTijd app.
+// Het laat een enkele taak zien met opties om deze te voltooien, bewerken of verwijderen.
+// Gebruikers kunnen de status van een taak wijzigen met een checkbox.
+// De prioriteit van de taak wordt weergegeven met een gekleurde badge.
+// Als er een deadline is, wordt deze ook getoond.
+// Tags worden als kleine badges weergegeven onder de taak.
+
 'use client';
 
 import { cn } from '@/lib/utils';

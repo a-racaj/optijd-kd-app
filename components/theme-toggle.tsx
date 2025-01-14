@@ -1,3 +1,8 @@
+// Dit bestand bevat de ThemeToggle component voor mijn OpTijd app.
+// Het biedt een knop waarmee gebruikers kunnen wisselen tussen licht en donker thema.
+// De knop toont een zon- of maansymbool, afhankelijk van het huidige thema.
+// Bij het klikken op de knop verandert het thema en wordt de bijbehorende animatie getoond.
+
 'use client';
 
 import { Moon, Sun } from 'lucide-react';
